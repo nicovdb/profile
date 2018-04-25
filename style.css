@@ -1,0 +1,108 @@
+body {
+  font-family: 'Open Sans';
+  font-weight: 300;
+  color: rgb(60, 60, 60);
+  font-size: medium;
+  line-height: 1.6;
+  background-color: rgb(230, 230, 255);
+  text-align: center;
+}
+
+h2 {
+  font-family: 'Montserrat';
+  font-weight: black;
+  color: #1e6262;
+}
+
+h3, h4 {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  color: rgb(80,80,80);
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.container {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 25px;
+  border-radius: 3px;
+  box-shadow: 0px 0px 1px rgb(200,200,200);
+  background: rgb(245, 245, 245);
+}
+
+#profile_pic {
+  border-radius: 50%;
+  width: 175px;
+  height: 200px;
+}
+
+.resume p {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.social_medias a {
+  text-decoration: none;
+  color: rgba(60, 60, 60, 0.5);
+}
+
+.social_medias a:hover {
+  color: #1e6262;
+}
+
+.social_medias li {
+  display: inline-block;
+}
+
+.social_medias ul {
+  list-style: none;
+  margin: 10px;
+  font-size: 25px;
+  padding-left: 0;
+}
+
+.movies img {
+  width: 300px;
+  height : 168px;
+}
+
+.movies p, h4 {
+  text-align: justify;
+  padding-left: 20px;
+}
+
+.button {
+  text-decoration: none;
+  background-color: #1e6262;
+  color:rgb(245, 245, 245);
+  font-weight: bold;
+  font-size: 12px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+
+
+
